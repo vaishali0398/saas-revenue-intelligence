@@ -1,0 +1,18 @@
+
+# Data processing
+pandas
+numpy
+pyarrow
+
+# Configuration and validation
+python-dotenv
+pydantic
+pydantic-settings
+pandera
+
+# Dashboard and visualisation
+streamlit
+plotly
+
+# Testing
+pytest
