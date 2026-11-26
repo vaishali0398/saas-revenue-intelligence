@@ -1,0 +1,100 @@
+{
+  "customers.csv": {
+    "grain": "One row per customer in the CRM source.",
+    "primary_key": "customer_id",
+    "columns": {
+      "customer_id": "Unique customer identifier",
+      "customer_name": "Synthetic customer name",
+      "industry": "Customer industry",
+      "customer_segment": "SMB, Mid-Market or Enterprise",
+      "country": "Customer billing/operating country",
+      "customer_created_date": "CRM creation date",
+      "acquisition_channel": "Original acquisition channel"
+    }
+  },
+  "products.csv": {
+    "grain": "One row per product/SKU.",
+    "primary_key": "product_id",
+    "columns": {
+      "product_id": "Unique product identifier",
+      "product_name": "Product name",
+      "product_category": "Product category",
+      "list_price_per_user_monthly": "Indicative monthly list price per seat",
+      "currency": "Price currency"
+    }
+  },
+  "contracts.csv": {
+    "grain": "One row per subscription contract.",
+    "primary_key": "contract_id",
+    "columns": {
+      "contract_id": "Unique contract identifier",
+      "customer_id": "Customer foreign key",
+      "product_id": "Product foreign key",
+      "contract_start_date": "Contract start date",
+      "contract_end_date": "End date; null means no end date supplied",
+      "billing_frequency": "MONTHLY or ANNUAL",
+      "seats": "Purchased seats",
+      "discount_pct": "Discount percentage expressed as decimal",
+      "monthly_recurring_amount": "Normalized monthly recurring contract value, in USD",
+      "currency": "Contract currency",
+      "contract_status": "Source status; derive as-of status from dates for historical reporting",
+      "renewal_date": "Next renewal date"
+    }
+  },
+  "usage_monthly.csv": {
+    "grain": "One row per contract, product and usage month (with a few intentional bad records).",
+    "primary_key": "usage_id; also test business-key uniqueness on contract_id + usage_month",
+    "columns": {
+      "usage_id": "Usage record identifier",
+      "contract_id": "Contract foreign key",
+      "customer_id": "Customer foreign key",
+      "product_id": "Product foreign key",
+      "usage_month": "Month represented as YYYY-MM",
+      "active_users": "Distinct active users",
+      "event_count": "Product events during month",
+      "storage_gb": "Storage consumed in GB",
+      "record_updated_date": "Source update date"
+    }
+  },
+  "invoices.csv": {
+    "grain": "One row per invoice.",
+    "primary_key": "invoice_id",
+    "columns": {
+      "invoice_id": "Invoice identifier",
+      "contract_id": "Contract foreign key",
+      "customer_id": "Customer foreign key",
+      "invoice_date": "Invoice issue date",
+      "due_date": "Payment due date",
+      "billing_period": "Service month represented as YYYY-MM",
+      "invoice_amount": "Invoice amount; annual invoices represent 12 months of normalized MRR",
+      "currency": "Invoice currency",
+      "invoice_status": "Source billing status"
+    }
+  },
+  "payments.csv": {
+    "grain": "One row per payment transaction; an invoice can have multiple payments.",
+    "primary_key": "payment_id",
+    "columns": {
+      "payment_id": "Payment identifier",
+      "invoice_id": "Invoice foreign key",
+      "customer_id": "Customer foreign key",
+      "payment_date": "Payment date",
+      "payment_amount": "Amount paid",
+      "currency": "Payment currency",
+      "payment_method": "Payment channel"
+    }
+  },
+  "customer_updates.csv": {
+    "grain": "One row per synthetic CRM customer attribute update; use as a Type 2 change feed.",
+    "primary_key": "source_update_id",
+    "columns": {
+      "source_update_id": "Unique source change identifier",
+      "customer_id": "Customer foreign key",
+      "effective_date": "Date the changed attributes became effective",
+      "customer_segment": "Customer segment after the change",
+      "industry": "Industry value after the change",
+      "country": "Country value after the change",
+      "acquisition_channel": "Acquisition channel value after the change"
+    }
+  }
+}

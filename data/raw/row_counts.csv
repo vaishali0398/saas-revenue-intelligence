@@ -1,0 +1,8 @@
+file,rows
+customers.csv,100
+customer_updates.csv,30
+products.csv,4
+contracts.csv,130
+usage_monthly.csv,1497
+invoices.csv,850
+payments.csv,695

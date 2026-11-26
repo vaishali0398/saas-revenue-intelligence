@@ -1,0 +1,31 @@
+source_update_id,customer_id,effective_date,customer_segment,industry,country,acquisition_channel
+CU00001,C0004,2025-09-13,Mid-Market,Healthcare,India,Partner
+CU00015,C0004,2025-12-08,Enterprise,Healthcare,India,Partner
+CU00026,C0011,2026-08-18,Mid-Market,Financial Services,Canada,Direct
+CU00008,C0014,2026-05-02,SMB,Education,United Kingdom,Online
+CU00030,C0015,2026-02-20,SMB,Technology,Australia,Partner
+CU00012,C0016,2024-04-22,SMB,Education,United Kingdom,Online
+CU00020,C0023,2026-08-24,Mid-Market,Financial Services,United Kingdom,Partner
+CU00007,C0031,2025-11-13,Enterprise,Healthcare,United States,Partner
+CU00023,C0035,2026-03-02,Enterprise,Manufacturing,United Kingdom,Direct
+CU00004,C0039,2025-12-22,Mid-Market,Healthcare,Australia,Online
+CU00013,C0043,2025-12-26,Enterprise,Healthcare,United Kingdom,Direct
+CU00005,C0045,2025-11-05,Enterprise,Retail,United Kingdom,Direct
+CU00024,C0045,2026-07-29,Mid-Market,Retail,United Kingdom,Direct
+CU00029,C0047,2025-04-01,Enterprise,Technology,India,Online
+CU00027,C0049,2025-03-02,SMB,Education,Canada,Partner
+CU00022,C0051,2024-04-05,Mid-Market,Financial Services,Canada,Direct
+CU00009,C0052,2026-05-27,Enterprise,Healthcare,India,Online
+CU00006,C0053,2026-03-12,SMB,Retail,United States,Direct
+CU00003,C0063,2025-02-21,SMB,Technology,Canada,Partner
+CU00018,C0066,2026-07-13,SMB,Technology,United Kingdom,Partner
+CU00016,C0069,2024-12-22,SMB,Retail,Canada,Online
+CU00002,C0069,2026-01-05,Enterprise,Retail,Canada,Online
+CU00014,C0071,2026-07-15,Enterprise,Technology,Australia,Direct
+CU00017,C0076,2025-12-25,Mid-Market,Retail,Canada,Partner
+CU00025,C0078,2026-07-15,SMB,Healthcare,Australia,Online
+CU00019,C0080,2025-04-20,Mid-Market,Financial Services,United Kingdom,Direct
+CU00010,C0080,2026-05-20,Mid-Market,Financial Services,United Kingdom,Direct
+CU00028,C0087,2026-08-15,Mid-Market,Education,Australia,Partner
+CU00021,C0091,2026-04-22,Mid-Market,Healthcare,United Kingdom,Direct
+CU00011,C0091,2026-06-10,Enterprise,Healthcare,United Kingdom,Direct

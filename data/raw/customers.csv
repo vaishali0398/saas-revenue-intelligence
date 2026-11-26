@@ -1,0 +1,101 @@
+customer_id,customer_name,industry,customer_segment,country,customer_created_date,acquisition_channel
+C0001,Blue Labs 1,Education,Mid-Market,United Kingdom,2025-10-16,Direct
+C0002,Blue Partners 2,Education,Enterprise,United States,2024-05-22,Online
+C0003,North Labs 3,Technology,SMB,United Kingdom,2025-03-08,Online
+C0004,North Works 4,Healthcare,Enterprise,India,2025-09-08,Partner
+C0005,Silver Works 5,Financial Services,SMB,United Kingdom,2024-08-13,Online
+C0006,Vertex Group 6,Healthcare,SMB,Canada,2025-03-08,Direct
+C0007,Pioneer Labs 7,Financial Services,Mid-Market,India,2024-04-04,Partner
+C0008,North Partners 8,Manufacturing,Enterprise,United States,2026-04-06,Partner
+C0009,Bright Partners 9,Retail,Mid-Market,India,2024-03-21,Direct
+C0010,Blue Labs 10,Education,SMB,Canada,2025-12-22,Direct
+C0011,Blue Solutions 11,Financial Services,Mid-Market,Canada,2024-08-26,Direct
+C0012,Vertex Systems 12,Education,Mid-Market,United States,2025-01-14,Online
+C0013,Summit Works 13,Education,SMB,United Kingdom,2025-10-12,Partner
+C0014,Bright Partners 14,Education,Enterprise,United Kingdom,2025-01-23,Online
+C0015,North Systems 15,Technology,Mid-Market,Australia,2024-11-28,Partner
+C0016,Apex Works 16,Education,Mid-Market,United Kingdom,2024-03-08,Online
+C0017,Pioneer Partners 17,Manufacturing,SMB,Canada,2025-05-26,Direct
+C0018,Bright Partners 18,Retail,Mid-Market,India,2024-09-09,Partner
+C0019,Apex Systems 19,Retail,Mid-Market,United States,2025-01-05,Direct
+C0020,Summit Partners 20,Healthcare,Enterprise,Australia,2024-04-22,Online
+C0021,Pioneer Solutions 21,Retail,Mid-Market,India,2024-03-06,Partner
+C0022,North Partners 22,Education,SMB,India,2025-07-20,Partner
+C0023,Vertex Labs 23,Financial Services,Mid-Market,United Kingdom,2026-02-26,Partner
+C0024,Bright Works 24,Healthcare,Enterprise,United States,2024-01-04,Online
+C0025,Apex Systems 25,Financial Services,SMB,India,2024-11-01,Online
+C0026,Vertex Solutions 26,Technology,SMB,Canada,2024-01-01,Partner
+C0027,North Systems 27,Retail,SMB,United States,2024-09-02,Online
+C0028,Blue Works 28,Healthcare,SMB,Australia,2025-05-12,Online
+C0029,Bright Works 29,Retail,Mid-Market,United Kingdom,2024-06-18,Online
+C0030,Apex Partners 30,Financial Services,Mid-Market,Canada,2026-02-12,Partner
+C0031,Silver Labs 31,Healthcare,SMB,United States,2025-06-13,Partner
+C0032,Apex Works 32,Healthcare,SMB,United States,2024-01-22,Online
+C0033,North Systems 33,Technology,SMB,Canada,2025-10-08,Direct
+C0034,Apex Group 34,Education,Mid-Market,United Kingdom,2025-06-10,Online
+C0035,Silver Systems 35,Manufacturing,Mid-Market,United Kingdom,2024-05-15,Direct
+C0036,Pioneer Group 36,Manufacturing,Mid-Market,Australia,2024-04-09,Online
+C0037,Blue Labs 37,Manufacturing,Enterprise,Canada,2024-02-25,Direct
+C0038,Apex Systems 38,Retail,Mid-Market,United Kingdom,2024-09-11,Partner
+C0039,Bright Solutions 39,Healthcare,SMB,Australia,2024-07-06,Online
+C0040,North Partners 40,Retail,SMB,United States,2024-04-10,Direct
+C0041,Pioneer Solutions 41,Manufacturing,SMB,Australia,2024-06-19,Direct
+C0042,Pioneer Labs 42,Manufacturing,Mid-Market,Australia,2024-06-17,Partner
+C0043,Silver Systems 43,Healthcare,Mid-Market,United Kingdom,2025-03-09,Direct
+C0044,North Partners 44,Financial Services,SMB,United States,2025-08-16,Online
+C0045,Summit Labs 45,Retail,SMB,United Kingdom,2025-05-03,Direct
+C0046,Blue Partners 46,Healthcare,Mid-Market,United States,2025-09-01,Online
+C0047,North Works 47,Technology,Mid-Market,India,2024-09-09,Online
+C0048,Vertex Group 48,Healthcare,Enterprise,Canada,2025-06-19,Direct
+C0049,Pioneer Systems 49,Education,Enterprise,Canada,2024-09-28,Partner
+C0050,Blue Labs 50,Manufacturing,Enterprise,India,2024-11-19,Direct
+C0051,Apex Works 51,Financial Services,SMB,Canada,2024-03-16,Direct
+C0052,Vertex Group 52,Healthcare,Mid-Market,India,2024-09-07,Online
+C0053,North Partners 53,Retail,Mid-Market,United States,2024-11-05,Direct
+C0054,Blue Labs 54,Education,Enterprise,United Kingdom,2024-09-27,Partner
+C0055,Apex Partners 55,Financial Services,SMB,Canada,2024-10-15,Online
+C0056,Bright Labs 56,Technology,Enterprise,Australia,2025-05-15,Partner
+C0057,North Group 57,Healthcare,Enterprise,Canada,2024-02-15,Direct
+C0058,Silver Works 58,Education,Mid-Market,India,2026-01-29,Direct
+C0059,Blue Partners 59,Healthcare,Enterprise,United States,2024-04-24,Partner
+C0060,Summit Solutions 60,Healthcare,SMB,Canada,2025-08-19,Partner
+C0061,North Group 61,Healthcare,Enterprise,United Kingdom,2026-03-26,Online
+C0062,Vertex Works 62,Manufacturing,Enterprise,United Kingdom,2024-04-15,Direct
+C0063,Summit Solutions 63,Technology,SMB,Canada,2024-06-15,Partner
+C0064,Apex Group 64,Healthcare,Enterprise,United States,2026-04-01,Partner
+C0065,Silver Systems 65,Healthcare,Mid-Market,Canada,2024-02-09,Partner
+C0066,Apex Systems 66,Technology,Enterprise,United Kingdom,2026-04-20,Partner
+C0067,Bright Labs 67,Financial Services,Mid-Market,India,2024-12-02,Partner
+C0068,Vertex Labs 68,Technology,Mid-Market,United Kingdom,2025-11-26,Online
+C0069,North Labs 69,Retail,Mid-Market,Canada,2024-09-28,Online
+C0070,Vertex Solutions 70,Retail,Enterprise,United States,2026-03-16,Partner
+C0071,Apex Group 71,Technology,Enterprise,Australia,2025-08-13,Direct
+C0072,Apex Group 72,Manufacturing,SMB,Canada,2025-06-16,Online
+C0073,Blue Partners 73,Financial Services,Enterprise,Canada,2024-11-17,Online
+C0074,Vertex Solutions 74,Education,Mid-Market,India,2025-02-22,Direct
+C0075,Pioneer Partners 75,Manufacturing,Enterprise,United Kingdom,2024-07-15,Online
+C0076,Bright Solutions 76,Retail,SMB,Canada,2025-08-05,Partner
+C0077,Pioneer Works 77,Retail,Enterprise,Canada,2024-08-03,Partner
+C0078,Silver Partners 78,Healthcare,Enterprise,Australia,2025-03-28,Online
+C0079,Blue Group 79,Retail,Enterprise,India,2024-06-22,Partner
+C0080,Apex Partners 80,Financial Services,SMB,United Kingdom,2024-04-05,Direct
+C0081,North Systems 81,Manufacturing,Enterprise,United States,2024-01-26,Partner
+C0082,Apex Partners 82,Education,Mid-Market,Australia,2025-02-28,Partner
+C0083,Summit Partners 83,Education,SMB,United States,2024-09-06,Partner
+C0084,Summit Partners 84,Retail,Mid-Market,United States,2024-08-12,Online
+C0085,Blue Solutions 85,Healthcare,Mid-Market,India,2024-09-12,Online
+C0086,Vertex Solutions 86,Retail,Enterprise,India,2025-09-01,Partner
+C0087,Silver Systems 87,Education,Mid-Market,Australia,2026-04-30,Partner
+C0088,Apex Partners 88,Financial Services,Enterprise,Australia,2026-02-08,Online
+C0089,Bright Solutions 89,Technology,Enterprise,Canada,2024-09-01,Direct
+C0090,Vertex Group 90,Retail,SMB,United Kingdom,2024-10-05,Direct
+C0091,Pioneer Partners 91,Healthcare,Enterprise,United Kingdom,2024-08-24,Direct
+C0092,Pioneer Group 92,Retail,Mid-Market,Australia,2025-02-28,Direct
+C0093,Pioneer Solutions 93,Retail,Enterprise,United States,2024-07-30,Online
+C0094,Silver Labs 94,Financial Services,Mid-Market,Australia,2025-01-24,Partner
+C0095,Apex Solutions 95,Healthcare,Mid-Market,Australia,2025-07-05,Partner
+C0096,Pioneer Group 96,Education,Enterprise,Australia,2024-01-30,Online
+C0097,Silver Systems 97,Retail,Enterprise,United States,2024-06-18,Partner
+C0098,North Labs 98,Education,Mid-Market,United Kingdom,2025-08-29,Partner
+C0099,North Group 99,Manufacturing,Mid-Market,United Kingdom,2024-07-05,Partner
+C0100,Vertex Solutions 100,Financial Services,Mid-Market,Canada,2024-11-30,Direct

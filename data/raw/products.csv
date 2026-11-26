@@ -1,0 +1,5 @@
+product_id,product_name,product_category,list_price_per_user_monthly,currency
+P001,CloudFlow CRM,Sales CRM,120,USD
+P002,CloudFlow Analytics,Business Intelligence,180,USD
+P003,CloudFlow Automation,Workflow Automation,150,USD
+P004,CloudFlow Enterprise,Enterprise Platform,400,USD
